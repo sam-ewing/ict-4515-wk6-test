@@ -216,6 +216,14 @@ footer p {
     color: #CCC;
     font-size: 12px;
     text-align: center;
+    
+}
+
+footer p:last-child {
+    color: #CCC;
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 h1 {
