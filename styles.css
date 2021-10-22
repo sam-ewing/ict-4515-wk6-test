@@ -33,6 +33,22 @@ body {
     background-color: #0A4AC2;
 }
 
+.button-back-to-top {
+    background-color: #0C59E9;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: block;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+}
+
 .column-50 {
     display: inline-block;
     padding: 0;
@@ -138,26 +154,6 @@ footer {
     background-color: rgba(35,35,35,0.95);
 }
 
-footer .button {
-    background-color: rgba(35,35,35,0.95);
-    border: 2px solid #FFF;
-    color: #FFF;
-    display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 200px;
-}
-
-footer .button:hover {
-    background-color: rgba(75,75,75);
-}
 
 .footer-nav {
     display: block;
@@ -175,12 +171,17 @@ footer .button:hover {
     display: block;
     margin-bottom: 10px;
     font-size: 14px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 4px 6px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    width: 200px;
+}
+
+.footer-nav-button:hover {
+    border: 2px solid #FFF;
 }
 
 .footer-nav-button-active {
@@ -190,12 +191,13 @@ footer .button:hover {
     display: block;
     margin-bottom: 10px;
     font-size: 14px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 4px 6px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    width: 200px;
 } 
 
 .footer-nav-button-group  {
@@ -214,8 +216,8 @@ footer p {
 
 h1 {
     font-size: 36px;
-    text-align: center;
     padding-bottom: 20px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -352,6 +354,10 @@ section p:last-of-type {
     text-align: center;
 }
 
+/* ================================================================================================ */
+/* SMALL DESKTOP STYLING  */
+/* ================================================================================================ */
+
 @media  (max-width:1200px) {
 
     .event-logo-stand-in {
@@ -383,6 +389,8 @@ section p:last-of-type {
         display: block;
         width: 100%;
     }
+
+    
 }
 
 
@@ -390,6 +398,11 @@ section p:last-of-type {
 /* TABLET STYLING  */
 /* ================================================================================================ */
 @media  (max-width:768px) {
+
+    address {
+        margin-top: 20px
+    }
+    
 
     .button {
         background-color: #4985F5;
@@ -417,6 +430,11 @@ section p:last-of-type {
         margin-bottom: 0px;
     }
 
+    
+    .date-subheader {
+        font-size: 18px;
+    }
+
     .event-calendar {
         border: 0;
         display: block;
@@ -438,6 +456,22 @@ section p:last-of-type {
         width: 100%;   
     }
 
+    .footer-nav {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 220px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
     .hotel-photo {
         margin-left: 10%;
         margin-right: 10%;
@@ -450,6 +484,10 @@ section p:last-of-type {
         text-transform: uppercase;
         text-decoration: none;
         width: 100%;
+    }
+
+    .mafcc-logo {
+        margin-bottom: 20px;
     }
 
     .nav-button  {
@@ -493,20 +531,28 @@ section p:last-of-type {
     .nav-button-col-last .nav-button {
         vertical-align: middle;
     }
+
+    p {
+        font-size: 14px;
+    }
     
     .questions-subheader:last-of-type {
         margin-top: 35px;
     }
 
+    .title-subheader {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 /* ================================================================================================ */
 /* PHONE STYLING  */
 /* ================================================================================================ */
 @media (max-width:480px), (max-height: 480px) {
     
-    address {
-        margin-top: 20px
-    }
+
+    
     
     .event-logo-stand-in {
         display: block;
@@ -515,13 +561,6 @@ section p:last-of-type {
         width: 280px; 
     }
 
-    .footer-nav {
-        display: block;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        min-width: 220px;
-    }
+    
 
 }
