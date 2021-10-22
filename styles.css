@@ -45,13 +45,13 @@ body {
 }
 
 .contact-info {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
     text-align: center;
 }
 
 .contact-person {
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px;
     text-align: center;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .date-subheader {
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 20px;
     text-align: center;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .event-title {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -241,7 +241,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 325px;
+    width: 450px; 
 }
 
 .mafcc-banner-link {
@@ -324,8 +324,12 @@ nav {
     margin-top: 20px;
 }
 
-.questions-subheader {
+p {
     font-size: 18px;
+}
+
+.questions-subheader {
+    font-size: 22px;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -336,36 +340,14 @@ section p:last-of-type {
 }
 
 .section-title {
-    margin-bottom: 25px;
-    font-size: 22px;
+    margin-bottom: 40px;
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
-}
-
-table {
-    border: 1px solid #000;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th {
-    background-color: #9FB6F5;
-    border: 1px solid #000;
-    font-size: 18px;
-    padding: 5px;
-    text-transform: uppercase;
-}
-
-td {
-    border: 1px solid #000;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 5px;
-    text-align: center;
 }
 
 .title-subheader {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -465,7 +447,6 @@ td {
     .mafcc-banner-link {
         color: #FFF;
         font-size: 24px;
-        /* padding-left: 10px; */
         text-transform: uppercase;
         text-decoration: none;
         width: 100%;
@@ -522,6 +503,11 @@ td {
 /* PHONE STYLING  */
 /* ================================================================================================ */
 @media (max-width:480px), (max-height: 480px) {
+    
+    address {
+        margin-top: 20px
+    }
+    
     .event-logo-stand-in {
         display: block;
         margin-left: auto;
